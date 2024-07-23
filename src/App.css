@@ -36,3 +36,66 @@
     transform: rotate(360deg);
   }
 }
+
+/* This is the code I added for this week's project. Everything below I created.
+**  Everything above this comment was created by the create-react-app */
+
+.navBar {
+  width: 100vw;
+  background-color:cornflowerblue;
+  color: whitesmoke;
+  font-size: 24px;
+  padding: 5px;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  margin-left: 25%;
+}
+
+.navRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+
+nav ul li {
+  list-style: none;
+  margin-right: 1em;
+}
+
+nav ul li:hover {
+  color: rgba(0, 0, 0, 0.705);
+}
+
+nav ul li:active {
+  background-color: white;
+}
+
+.navTitle {
+  text-align: left;
+  color: blue;
+  text-shadow: 3px;
+  font-weight: bold;
+  
+}
+
+.logInMain,
+.logInH3 {
+  border: black;
+  border-style: double;
+  border-width: 5px;
+  border-radius: 8px;
+  width: 50%;
+  margin-top: 50px;
+  margin-left: 20%;
+  background-color: rgba(0, 0, 0, 0.255)
+
+}
+
+#inUNameLbl,
+#inUPwdLbl {
+  font-weight: bold;
+}
