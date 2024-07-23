@@ -8,9 +8,10 @@ function LoginForm() {
 
     return (
         <div className="logInMain">
-            <h3 className="logInH3">Log In:</h3>
-            <div class="card mt-3">
-                <div class="card-body ms-auto me-auto  w-50 bg-secondary-subtle">
+            <h3 className="logInH3">Log In</h3>
+            <hr></hr>
+            <div class="card">
+                <div class="card-body ms-auto me-auto w-50 bg-secondary-subtle">
                     <label id="inUNameLbl" for="inUName">User Name:</label>
                     <input id="inUName" type="text" placeholder="Enter your User Name"></input>
                     <br></br>
@@ -19,7 +20,7 @@ function LoginForm() {
                     <input id="inUPwd" type="text" placeholder="Enter your password"></input>
                     <br></br>
                     <br></br>
-                    <button class="btn btn-info" id="btnSubmit">Submit</button>
+                    <button class="btn btn-outline-info" id="btnSubmit">Submit</button>
                 </div>
             </div>
         </div>)

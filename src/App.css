@@ -52,7 +52,7 @@ nav ul {
   display: flex;
   flex-direction: row;
   justify-content: right;
-  margin-left: 25%;
+  margin-left: auto;
 }
 
 .navRow {
@@ -98,4 +98,5 @@ nav ul li:active {
 #inUNameLbl,
 #inUPwdLbl {
   font-weight: bold;
+  padding-right: 8px;
 }
